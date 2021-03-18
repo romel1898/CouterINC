@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Project 6</title>
+  <style>
+    img{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header class="project-header">
+    <nav style="background:  #1c1b1b"> 
+      <div id="logo">
+        <a href="index.html">Coulter Construction</a>
+      </div>
+      <i class="fas fa-bars" onclick="responsivemenu();" id="btn"></i>
+      <ul class="navbar" id="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#services" >SERVICES</a></li>
+        <li><a href="testimonials.html" >TESTIMONIALS</a></li>
+        <li><a href="#projects" >PROJECTS</a></li>
+      </ul>
+    </nav>
+    <div class="first-panel">
+      <h1>PROJECT 6</h1>
+      <div class="line2"></div>
+    </div>
+  </header>
+  <section>
+    <div class="projects-container">
+      <div>
+        <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+      </div>
+      <div class="slider">
+      	<div><img src="images/projects~~element69.jpg" alt=""></div>
+        <div><img src="images/projects~~element70.jpg" alt=""></div>     
+      </div>
+      <div>
+          <a class="backhomebtn" href="index.html">BACK TO HOMEPAGE</a>
+        </div>
+    </div>  
+    <div class="contactus" id="contactus" style="background: #f0f0f5; padding: 10px;">
+      <h1>Contact</h1>
+      <div class="line"></div>
+      <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5878.753916308505!2d-71.255171!3d42.547288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3a1c4d3bae0e1%3A0x9700c64b7520583!2s574%20Boston%20Rd%2C%20Billerica%2C%20MA%2001821%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sdo!4v1616000459210!5m2!1ses-419!2sdo" width="1000" height="380" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+      </div>
+      <div class="contact">
+        <div>
+        <h1>Inquiries</h1>
+        <p>For any inquiries, questions or commendations, please <br>call: (978) 667-7600 or fill out the following form</p>
+        <form action="send.php" method="post">
+          <h1>Contact Us</h1>
+          <label for="Name">Name</label><br>
+          <input type="text" placeholder="First Name" name="name" required=""><br>
+          <label for="Last name">Last Name</label><br>
+          <input type="text" placeholder="Last Name" name="surname" required=""><br>
+          <label for="Email">Email</label><br>
+          <input type="text" placeholder="Email" name="email" required=""><br>
+          <label for="Subject">Subject</label><br>
+          <input type="text" placeholder="Subject" name="subject" required=""><br>
+          <label for="Name">Message</label><br>
+          <textarea name="Message" id="" cols="55" rows="10" name="message" required=""></textarea>
+          <button type="submit" value="submit">Submit</button><br>
+        </form>
+        </div>
+        <div>
+          <h1>Address</h1>
+          <a href="#" style="margin-bottom: 20px;"> 574 Boston Rd <br> Billerica, MA 01821</a>
+          <a href="mailto:dcoulter@coulterinc.com ">dcoulter@coulterinc.com</a>
+          <a href="tel:+9786677600">tel: (978) 667-7600</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <script src="https://kit.fontawesome.com/532a64caf8.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="js/jsmain.js"></script>
+  <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider({
+          auto: true,
+          slideWidth:500
+        });
+      });
+    </script>
+
+</body>
+</html>
