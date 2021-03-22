@@ -17,7 +17,4 @@ $carta .= "Message: $message";
 
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-timezone_location_get();
-header('location:mensaje-de-envio.html');
-
 ?>
