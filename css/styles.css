@@ -354,7 +354,7 @@
 		@media only screen and ( max-width: 767px){
 			header{
 				height: 100%;
-				background-attachment: initial;
+				background-attachment: scroll;
 			}
 			header div a i{
 				left: 200px;
